@@ -1,0 +1,60 @@
+/**	phpLogger - the php logging engine
+
+*	@package phpLogger
+*	@subpackage phpLogger_interface
+*	@version 1.01 $Revision: 419 $
+
+*	@author	Roman Matthias Keil
+*	@copyright: Roman Matthias Keil
+
+*/
+
+ul#logs {
+	margin: 0ex;
+	padding: 1ex;
+	list-style-type: none;
+}
+
+ul#logs li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul#logs li>span {
+	width: 5em;
+	display: inline-block;
+}
+
+ul#logs li>span.backtrace {
+	width: 18em;
+	display: inline-block;
+}
+
+ul#logs li>span.date {
+	width: 12em;
+	display: inline-block;
+}
+
+span.error {
+	color: #FF4500;
+}
+
+span.debug {
+	color: #FF00FF;
+}
+
+span.warning {
+	color: #FFD700;
+}
+
+span.info {
+	color: #7FFF00;
+}
+
+span.date {
+	font-style: italic;
+}
