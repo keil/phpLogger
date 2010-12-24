@@ -1,15 +1,20 @@
 <?php
 
-/**	php2log - the php logging engine
+/**************************************************
+ * PHP LOGGER
+ **************************************************/
 
-*	@package php2log
-*	@subpackage php2log_interface
-*	@version 1.01 $Revision: 419 $
+/**************************************************
+ * @package phpLogger
+ * @subpackage interface
+ * @version 2.01
+ * @build 1054
+ **************************************************/
 
-*	@author	Roman Matthias Keil
-*	@copyright: Roman Matthias Keil
-
-*/
+/**************************************************
+ * @author: Roman Matthias Keil
+ * @copyright: Roman Matthias Keil
+ **************************************************/
 
 require_once 'classes/smarty/Smarty.class.php';
 require_once 'config/logger.inc.php';

@@ -1,15 +1,20 @@
 <?php
 
-/**	phpLogger - the php logging engine
+/**************************************************
+ * PHP LOGGER
+ **************************************************/
 
-*	@package phpLogger
-*	@subpackage phpLogger_interface
-*	@version 1.01 $Revision: 803 $
+/**************************************************
+ * @package phpLogger
+ * @subpackage config
+ * @version 2.01
+ * @build 1054
+ **************************************************/
 
-*	@author	Roman Matthias Keil
-*	@copyright: Roman Matthias Keil
-
-*/
+/**************************************************
+ * @author: Roman Matthias Keil
+ * @copyright: Roman Matthias Keil
+ **************************************************/
 
 /* the core version number
  */
@@ -21,6 +26,6 @@ define('VERSION', '2.01');
 
 /* the build number
  */
-define('BUILD', '1016');
+define('BUILD', '1054');
 
 ?>

@@ -7,19 +7,13 @@
 /**************************************************
  * @package phpLogger
  * @subpackage core
+ * @version 2.01
+ * @build 1054
  **************************************************/
 
 /**************************************************
  * @author: Roman Matthias Keil
  * @copyright: Roman Matthias Keil
- **************************************************/
-
-/**************************************************
- * $Id: LoggerConnection.class.php 892 2010-05-30 15:05:33Z webadmin $
- * $HeadURL: http://svn.rm-keil.de/rm-keil/webpages/rm-keil.de/Release%20(1.0)/httpdocs/_app/core/logger/LoggerConnection.class.php $
- * $Date: 2010-05-30 17:05:33 +0200 (So, 30 Mai 2010) $
- * $Author: webadmin $
- * $Revision: 892 $
  **************************************************/
 
 Application::import('config.logger');
